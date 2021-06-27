@@ -101,7 +101,7 @@ a{
         background: rgb(14, 24, 43);
         position: absolute;
         top: 60px;
-        left: -100%;
+        left: -200%;
         transition: all 1s;
         overflow: scroll;
 
@@ -136,5 +136,11 @@ a{
     }
     .listItem .slide li:hover > ul{
         display: none;
+    }
+}
+
+@media screen and (max-width:380px) {
+    .menu{
+        width: 100%;
     }
 }

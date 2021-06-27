@@ -8,7 +8,7 @@
             nav.style.left = "0"
             con = false
         } else {
-            nav.style.left = "-100%"
+            nav.style.left = "-200%"
             con = true
         }
 
